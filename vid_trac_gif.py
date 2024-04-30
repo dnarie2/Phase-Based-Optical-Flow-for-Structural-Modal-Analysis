@@ -65,7 +65,6 @@ while True:
     old_gray = frame_gray.copy()
     p0 = good_new.reshape(-1, 1, 2)
 
-# Release video capture and writer
 cap.release()
 out.release()
 cv2.destroyAllWindows()
